@@ -1,4 +1,4 @@
-Algoritmo Restar
+Algoritmo Restarhasta0
 	Definir numer, total Como Real
 	
 	Escribir "Ingrese número inicial para comenzar:"
@@ -10,7 +10,7 @@ Algoritmo Restar
 		Escribir "Ingrese un número para restar o (0 para salir):"
 		Leer numer 
 		total = total - numer
-		Escribir"Subtotal", total
+		Escribir"Resultado parcial:", total
 	FinMientras
 	
 	Escribir "Resultado final:", total
